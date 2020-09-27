@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +5,7 @@
 }
 body{
     background: #ffffff;
-    font-family: sans-serif;
+    font-family : 'circular-std', sans-serif;
     width: 100%;
     height: 100%;
 
@@ -16,9 +15,71 @@ h1,h2,h3,h4{
     font-size: 40px;
     line-height: 50px;
 }
+
 a{
     text-decoration: none !important;
 }
 a:hover{
    text-decoration: none !important;
 }
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+ /*Navigation*/
+ 
+.navbar{
+   background-color:  #52A1FF;
+   font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    
+}
+.navbar a{
+    color: #FFFFFF;
+    text-align : center;
+    font-family : 'circular-std', sans-serif;
+}
+.navbar-collapse{
+    text-align: center;
+}
+.navbar-brand b{
+    color: #101357;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 19px;
+    font-family: 'circular-std', sans-serif;
+}
+.nav-link{
+    margin-right: 30px;
+}
+#logo img {
+    border-radius: 50px;
+}
+ 
+/*Footer*/
+
+.footer-copyright{
+    background-color:#101357;
+    color: #FFFFFF;
+    font-family: 'circular-std', sans-serif;
+}
+.footer-info{
+    color: #FFFFFF;
+    background-color: #52A1FF;
+    padding-top: 30px;
+    font-family: 'circular-std', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+}
+.footer-info a{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 18px;
+    
+}
+
