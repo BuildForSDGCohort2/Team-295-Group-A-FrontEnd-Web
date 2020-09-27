@@ -85,6 +85,21 @@ img{
     line-height: 18px;
     
 }
+/*****************************************************************************/
+/*CONTACT US PAGE*/
+#Contact-Us{
+    margin: 60px 0px 0px 0px;
+    padding: 0px 0px;
+    font-family: 'circular-std', sans-serif;
+}
+#Contact-Us img{
+    height: 300px;
+    width: 100%;    
+}
+.contact-form{
+    margin: 0px;
+}
+
 /**************************************************************************************/
 /*ABOUT US PAGE*/
 #andela, #developer-circles{
