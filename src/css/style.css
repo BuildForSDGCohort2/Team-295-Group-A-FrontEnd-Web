@@ -85,6 +85,30 @@ img{
     line-height: 18px;
     
 }
+/**************************************************************************************/
+/*ABOUT US PAGE*/
+#andela, #developer-circles{
+    border-radius: 50%;
+    height: 200px;
+    margin-bottom: 100px;
+    padding-left: 30px;    
+}
+#AboutUs{
+    margin-top:60px;
+    font-family: 'circular-std', sans-serif;
+    align-items: center;
+    justify-items: center
+    
+}
+.about-us p{
+    font-size: 22px;
+}
+.partners{
+    background:#0c084c;
+    color: #FFFFFF;
+}
+
+
 /******************************************************************************/
 /*SIGN IN PAGE*/
 
