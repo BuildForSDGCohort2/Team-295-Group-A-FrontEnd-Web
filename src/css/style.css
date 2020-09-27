@@ -28,7 +28,9 @@ img{
 }
 
  /*Navigation*/
- 
+ .navbar-toggler-icon{
+     color: darkblue;
+ } 
 .navbar{
    background-color:  #52A1FF;
    font-family: Circular Std;
@@ -60,7 +62,8 @@ img{
 #logo img {
     border-radius: 50px;
 }
- 
+
+    
 /*Footer*/
 
 .footer-copyright{
@@ -82,4 +85,11 @@ img{
     line-height: 18px;
     
 }
+/******************************************************************************/
+/*SIGN IN PAGE*/
 
+.login-img, .signup-img{
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+}
