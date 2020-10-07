@@ -33,15 +33,14 @@
             <!-- HEADER STARTS HERE -->
                 <!-- NAVBAR STARTS HERE -->
 
-                <nav class=" navbar navbar-expand-lg 
-                fixed-top py-lg-0 "> 
+                <nav class=" navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 "> 
         
-                <a class="navbar-brand" href="#" id="logo"> 
+                <a class="navbar-brand font-weight-bold" href="#" id="logo"> 
         
                     <!-- Add logo with size of 90*80 -->
                     <img src= 
                     "./src/images/logo.jpg"
-                    alt=""> <span>Find<b>a</b>Hospital</span>
+                    alt=""> <span>Find<b>a</b> Hospital</span>
                 </a> 
                 
                 <button class="navbar-toggler" type="button"
@@ -51,7 +50,7 @@
                         aria-expanded="false"
                         aria-label="Toggle navigation"> 
                         
-                        <span class="navbar-toggler-icon "></span> 
+                        <span class="navbar-toggler-icon"></span> 
                 </button> 
         
                 <div class="collapse navbar-collapse"
@@ -85,13 +84,245 @@
             <!-- HERO SECTION STARTS HERE -->
             <Section id="Hero"class="container-fluid d-flex col-md-12 px-0 ">
                 
-                <img id="hero-img" src="./src/images/c" alt="medical equipment">
-                
+                <img id="hero-img" src="./src/images/hero.png" alt="medical equipment">
+                <h1>Search for Hospitals <br>around you</h1>
+                <p class="py-5">Easily find hospital locations near you</p>
+                <!-- Search form -->
+                <form class="form-inline search py-5">
+                    <input class="form-control rounded-pill form-control-sm mr-3 w-75" type="text" placeholder="Search"
+                    aria-label="Search">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                </form>
+                <div class="color-overlay"></div>
             </Section>
             <!-- HERO SECTION ENDS HERE -->
-            <div class="container-fluid">
-                <img src="./src/images/Coming soon.png" alt="">
-            </div>
+            
+            <!-- SERVICES SECTION STARTS HERE -->
+            <Section id="Services" class="container-fluid px-5">
+            <!--Carousel Wrapper-->
+                <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+                    <h1 class="mb-2 text-center font-weight-bold">Find hospitals by services they provide</h1>
+
+                    <!--Controls-->
+                    <div class="controls-top text-center mb-2 mt-5">
+                    <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3 "></i></a>
+                    <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3 "></i></a>
+                    </div>
+                    <!--/.Controls-->
+                
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+                
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="./src/images/peadriatics.png"alt="">
+                            </div>
+                            <p class="font-weight-bold">Peadiatrics</p>
+                            <p>2,095 hospitals</p>
+                        </div>
+                
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="./src/images/pregnant-woman 1.png"alt="">
+                            </div>
+                            <p class="font-weight-bold">Gynaecology</p>
+                            <p>5,176 hospitals</p>
+                        </div>
+                
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="./src//images/psychiarty 1.png"alt="">
+
+                            </div>
+                            <p class="font-weight-bold">Infectious diseases</p>
+                            <p>14,282 hospitals</p>
+                        </div>
+                
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="./src/images/heart 1.png"alt="Card image cap">
+
+                            </div>
+                            <p class="font-weight-bold">Cardiology</p>
+                            <p>723 hospitals</p>
+                        </div>
+                
+                    </div>
+                    <!--/.First slide-->
+                
+                    <!--Second slide-->
+                    <div class="carousel-item">
+                
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="./src/images/peadriatics.png"alt="">
+                            </div>
+                            <p class="font-weight-bold">Peadiatrics</p>
+                            <p>2,095 hospitals</p>
+                        </div>
+                
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="./src/images/pregnant-woman 1.png"alt="">
+                            </div>
+                            <p class="font-weight-bold">Gynaecology</p>
+                            <p>5,176 hospitals</p>
+                        </div>
+                
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="./src//images/psychiarty 1.png"alt="">
+
+                            </div>
+                            <p class="font-weight-bold">Infectious diseases</p>
+                            <p>14,282 hospitals</p>
+                        </div>
+                
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="./src/images/heart 1.png"alt="Card image cap">
+
+                            </div>
+                            <p class="font-weight-bold">Cardiology</p>
+                            <p>723 hospitals</p>
+                        </div>
+                
+                    </div>
+                    <!--/.Second slide-->
+                
+                    <!--Third slide-->
+                    <div class="carousel-item">
+                
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="./src/images/peadriatics.png"alt="">
+                            </div>
+                            <p class="font-weight-bold">Peadiatrics</p>
+                            <p>2,095 hospitals</p>
+                        </div>
+                
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="./src/images/pregnant-woman 1.png"alt="">
+                            </div>
+                            <p class="font-weight-bold">Gynaecology</p>
+                            <p>5,176 hospitals</p>
+                        </div>
+                
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="./src//images/psychiarty 1.png"alt="">
+
+                            </div>
+                            <p class="font-weight-bold">Infectious diseases</p>
+                            <p>14,282 hospitals</p>
+                        </div>
+                
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="./src/images/heart 1.png"alt="Card image cap">
+
+                            </div>
+                            <p class="font-weight-bold">Cardiology</p>
+                            <p>723 hospitals</p>
+                        </div>
+                
+                    </div>
+                    <!--/.Third slide-->
+                
+                    </div>
+                    <!--/.Slides-->
+                
+                </div>
+                <!--/.Carousel Wrapper-->
+        </Section>
+            <!-- SERVICES SECTION ENDS HERE -->
+            <!-- CITIES SECTION STARTS HERE -->
+            <Section class="container-fluid mx-0 px-5 " id="Cities" >
+                <div>
+                    <h1 class="text-center font-weight-bold">Hospitals in cities near you</h1>
+                    <p class="text-center mb-5">Recomended hospitals in cities around you</p>
+                </div>
+                <!-- Grid row -->
+                    <div class=" row  mx-0 ">                       
+                        <!-- Grid column -->
+                        <div class=" col-md-6 mt-md-0 px-3 ">
+                            <img id="" src="./src/images/Nairobi-city-center 1.png" alt="">
+                            <h4 class="text-center font-weight-bold">Nairobi</h4>
+                            <p class="text-center font-weight-normal">12,865 hospitals</p>
+                            
+                        </div>
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class=" col-md-6 mt-md-0 px-3">
+                            <img id="" src="./src/images/eldoret 1.png" alt="">
+                            <h4 class="text-center font-weight-bold">Eldoret</h4>
+                            <p class="text-center font-weight-normal">1,095 hospitals</p>
+                            
+                        </div>
+                        <!-- Grid column -->              
+                    </div>
+                <!-- Grid row -->
+                 <!-- Grid row -->
+                 <div class=" row mx-0 mt-3">
+                    <!-- Grid column -->
+                    <div class=" col-md-4 mt-md-0 ">
+                        <img id="" src="./src/images/mombosa 1.png" alt="">
+                        <h4 class="text-center font-weight-bold">Mombasa</h4>
+                            <p class="text-center font-weight-normal">7,321 hospitals</p>
+                        
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class=" col-md-4 mt-md-0 ">
+                        <img id="" src="./src/images/nakuru 1.png" alt="">
+                        <h4 class="text-center font-weight-bold">Nakuru</h4>
+                            <p class="text-center font-weight-normal">897 hospitals</p>
+                        
+                    </div>
+                    <!-- Grid column --> 
+                    <!-- Grid column -->
+                    <div class=" col-md-4 mt-md-0 ">
+                        <img id="" src="./src/images/kisumu-city 1.png" alt="">
+                        <h4 class="text-center font-weight-bold">Kisumu</h4>
+                            <p class="text-center font-weight-normal">7,321 hospitals</p>
+                        
+                    </div>
+                    <!-- Grid column -->             
+                </div>
+            <!-- Grid row -->
+            <!-- CITIES SECTION ENDS HERE -->
+            </Section>
+            <!-- MOBILE APP SECTION STARTS HERE -->
+            <Section class="container-fluid px-5" id="DownloadApp" >
+                <!-- Grid row -->
+                <div class="col-md-6 mt-md-0 px-2">
+                    <h1 class="font-weight-bold ">Find the nearest hospital in your area! </h1>
+                </div>
+                    <div class=" row">
+                        <!-- Grid column -->
+                            
+                            <div class="app-text col-md-6 mt-5 ">
+                                <p class="font-weight-normal">Did you know we have a mobile app which you can download now for free?</p>
+                                <div>
+                                    <a href="#">
+                                        <img  class="text-center" id="playstore-img" src="./src/images/get-on gplaystore.jpg" alt="Android app">
+                                    </a >
+                                </div>
+                            </div>
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                            <div class="app-img col-md-6 mt-md-0 mt-5  d-flex text-center align-items-center justify-content-center">
+                                <img id="" src="./src/images/FindaHospital- app2.png" alt="Android app">
+                            </div>
+                        <!-- Grid column -->
+                    </div>
+                <!-- Grid row -->
+            </Section>
+            <!-- MOBILE APP SECTION ENDS HERE -->
             
             <!-- FOOTER STARTS HERE -->
         
@@ -130,7 +361,7 @@
                         <!-- Grid column -->
                             <div class="col-md-2 mb-3">
                                 <h6 class=" font-weight-normal">
-                                <a href="#!">About us</a>
+                                <a href="./about us.html">About us</a>
                                 </h6>
                             </div>
                         <!-- Grid column -->
@@ -138,7 +369,7 @@
                         <!-- Grid column -->
                             <div class="col-md-2 mb-3">
                                 <h6 class=" font-weight-normal">
-                                <a href="#!">Feedback</a>
+                                <a href="./feedback.html">Feedback</a>
                                 </h6>
                                 
                             </div>
@@ -147,7 +378,7 @@
                         <!-- Grid column -->
                             <div class="col-md-2 mb-3">
                                 <h6 class=" font-weight-normal">
-                                <a href="#!">Contact Us</a>
+                                <a href="./contact us.html">Contact Us</a>
                                 </h6>
                                 <a href="#" target="_blank">
                                     <img class="lazy loaded" src="./src/images/google-play1.png" alt="" data-was-processed="true">
